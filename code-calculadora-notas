@@ -1,0 +1,10 @@
+nome_aluno = input("Digite o nome do aluno: ")
+nota_teste = float(input("Nota do teste: "))
+nota_prova = float(input("Nota da prova: "))
+nota_projeto = float(input("Nota do projeto: "))
+
+media = (nota_teste + nota_prova + nota_projeto) / 3
+if media >= 7:
+  print(f"{nome_aluno} está aprovado(a). Sua média é {media}.")
+else:
+  print(f"{nome_aluno} está reprovado(a). Sua média é {media:.2f}.")
